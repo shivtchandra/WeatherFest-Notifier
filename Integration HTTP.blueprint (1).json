@@ -14,7 +14,7 @@
                 "qs": [
                     {
                         "name": "apikey",
-                        "value": "zpka_7d4923541b564627b2ba485dd1d94bdb_886d2047"
+                        "value": "{{apiKey}}"
                     },
                     {
                         "name": "details",
@@ -1297,14 +1297,14 @@
                                 "__IMTCONN__": 11972650
                             },
                             "mapper": {
-                                "projectId": "getto-dev",
+                                "projectId": "{{projectId}}",
                                 "recipient": "token",
                                 "isNotification": true,
                                 "notificationData": {
                                     "body": "{{13.tagline}}",
                                     "title": "{{13.title}}"
                                 },
-                                "registrationToken": "c-tsvuM1Seu8Wa9SHbcFOa:APA91bFhKcASBZnsKEBUklhpbOI2RQ049q-1HfljAfIdiADpHCDI5eAPxJwH39i-xXoDF8rgy0orwRmI6Jo3ovZRniSbtkbkEw9dj5LNh7dsbVeU8tbSqtk"
+                                "registrationToken": "{{Token}}"
                             },
                             "metadata": {
                                 "designer": {
@@ -1333,7 +1333,7 @@
                                                 "scoped": "true",
                                                 "connection": "fcm"
                                             },
-                                            "label": "My Firebase Cloud Messaging connection (utkarshgupta@gettoindia.com)"
+                                            "label": "My Firebase Cloud Messaging connection (demo@gmail.com)"
                                         }
                                     }
                                 },
